@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+.logo {
+ /* font-family: 'Knewave', cursive;*/
+  letter-spacing: 3px;
+  color: $white
+}
+
+.fancy-title {
+  font-family: 'Knewave', cursive;
+  font-size: 48px;
+}
+
+.signin-layout {
+  background-color: $primary-color;
+}
+
+
+.barona-topbar {
+  background-color: $secondary-color;
+  color: $white;
+}
+
+
+.barona-user {
+  font-size: 1em;
+  margin-bottom: 0px !important;
+  text-align: right;
+  padding: 10px;
+}
+
+.barona-board-tile {
+  margin: 20px 20px 0px 0px;
+
+  .v-card__subtitle {
+    font-size: 8px;
+  }
+}
